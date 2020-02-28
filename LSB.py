@@ -106,5 +106,22 @@ def decrypt(filename):
             
 
 x=input('Enter the path of the image with the extension : ')			
-encrypt(x)
-print(decrypt(x))
+ff=0
+while True:
+    if(ff == 0):
+        en = int(input('1. Encrypt 2. Exit'))
+        if(en==1):
+            encrypt(x)
+        elif(en==2):
+            break
+        ff=1
+    elif(ff==1):
+        en= int(input('1. Encrypt Different text. \n2. Decrypt \n3. Exit'))
+        if(en==1):
+            encrypt(x)
+        elif(en==2):
+            print(decrypt(x))
+        elif(en==3):
+            break
+    else:
+        break
