@@ -8,6 +8,7 @@
 ![Image-Stegnography-using-LSB](https://www.pantechsolutions.net/media/catalog/product/cache/1/thumbnail/350x/9df78eab33525d08d6e5fb8d27136e95/m/a/matlab_code_for_lsb_steganography.jpg)
 # Requirements
 Python 3 and above.  
+An image and its path.
   &nbsp;&nbsp;&nbsp;&nbsp;Modules:  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colors  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PIL  
@@ -17,3 +18,5 @@ Python 3 and above.
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pip install colors  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pip install PIL  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pip install binasci  
+	
+
